@@ -1,0 +1,36 @@
+# Build directories
+build/
+cmake_install/
+
+# Compiled object files
+*.o
+*.obj
+
+# Fortran module files
+*.mod
+*.smod
+
+# Executable files
+*.exe
+*.out
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
