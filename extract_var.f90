@@ -275,7 +275,6 @@ program extract_var
   end if
   call copy_var_attributes(srcid, varid, outid, outvarid)
 
-!  call copy_var_attributes(srcid, NF90_GLOBAL, outid, NF90_GLOBAL)
   call copy_global_attributes(srcid, outid)
 
   ierr = nf90_enddef(outid)
