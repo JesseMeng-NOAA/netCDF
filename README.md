@@ -71,9 +71,10 @@ cmake ..
 
 # Build
 cmake --build .
+ls src/netcdf.tmp2m.exe
 
 # Run
-./netcdf.tmp2m.exe input.nc output.nc
+build/src/netcdf.tmp2m.exe input.nc output.nc
 
 # Clean build artifacts
 cd ..
